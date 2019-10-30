@@ -1,0 +1,84 @@
+*
+{
+    /*margin: 0;
+    padding: 0;
+    */
+}
+
+/* Search in W3school = how to link ( linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), )*/
+
+body {
+    background-image:  url("beach.jpg");
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+} 
+.main-nav li {
+    display: inline-block;
+}
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.main-nav li.active a {
+    border: 0.5px solid white;
+}
+.main-nav li a:hover {
+    border: 1px solid white;
+    background-color: grey;
+    transition: all 0.1s ease-in;
+}
+.logo img{
+    width: 250px;
+    height: auto;
+    float: left;
+}
+body {
+    font-family: monospace;
+}
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+/*.hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}*/
+
+.box {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+#boximg {
+    border-radius: 10%;
+    width: 250px; 
+    height: 180px;
+    position: relative;          
+    display: inline-block;
+    margin-top: 10%;
+    left: 50%;                   
+    transform: translate(-60%)
+} 
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.box h5 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
